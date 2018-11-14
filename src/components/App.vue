@@ -124,7 +124,6 @@ export default {
         window.addEventListener('touchstart', event => this.onTouchStart(event));
     },
     mounted() {
-        console.log('loaded App.vue');
         // Decide which startup screen to use depending on the config
         let startupScreens = {
             welcome: startupWelcome,

@@ -4,7 +4,6 @@
     </div>
 </template>
 <script>
-console.log("loaded main.vue");
 import _ from 'lodash';
 import Vue from 'vue';
 import i18next from 'i18next';
@@ -405,7 +404,6 @@ function showError(err) {
 export default{
     props: ['kiwiConfig'],
     mounted() {
-        console.log('loaded kiwi config');
         window.kiwiConfig = () => this.kiwiConfig;
     },
     template: '<div id="kiwi-app"></div>',
