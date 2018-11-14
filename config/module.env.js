@@ -1,5 +1,4 @@
 'use strict'
 module.exports = {
-  NODE_ENV: '"production"',
-  buildToModule: true
+  NODE_ENV: '"module"'
 }
